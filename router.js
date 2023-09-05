@@ -9,7 +9,7 @@ router.get("/", async function (req, res) {
 });
 
 const model = new TeachableMachine({
-  modelUrl: "https://teachablemachine.withgoogle.com/models/r4-9Dc75t/",
+  modelUrl: "https://teachablemachine.withgoogle.com/models/eQ4S7z1go/",
 });
 
 router.post("/post", upload.single("image"), async function (req, res) {
